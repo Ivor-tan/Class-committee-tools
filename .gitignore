@@ -64,6 +64,7 @@ Desktop.ini
 $RECYCLE.BIN/
 
 # 临时与备份文件
+.test-tmp-py3106-build
 *.tmp
 *.temp
 *.bak

@@ -87,7 +87,7 @@ python -m pip install -r requirements-dev.txt
 pyinstaller packaging/class_committee_tools.spec
 ```
 
-打包结果位于 `dist/材料收集工具/`。发布前应在未安装 Python 的 Windows 10/11
+打包结果位于 `dist/ClassCommitteeTools/`。发布前应在未安装 Python 的 Windows 10/11
 电脑上验证启动、Excel 导入、材料添加和 ZIP 导出功能。
 
 生成包含全部依赖的单文件发布版：
@@ -96,8 +96,13 @@ pyinstaller packaging/class_committee_tools.spec
 pyinstaller --noconfirm --clean --distpath dist/release packaging/class_committee_tools_onefile.spec
 ```
 
-发布产物为 `dist/release/材料收集工具.exe`，无需附带 `_internal` 文件夹。PyInstaller
+发布产物为 `dist/release/ClassCommitteeTools.exe`，无需附带 `_internal` 文件夹。PyInstaller
 单文件程序运行时会自动将内部依赖解压到系统临时目录。
+
+## 作者与联系
+
+- 企鹅号：`1336957191`
+- 如有使用问题或功能需求，欢迎联系。
 
 ## 许可证
 

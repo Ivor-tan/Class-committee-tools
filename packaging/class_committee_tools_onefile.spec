@@ -24,7 +24,7 @@ executable = EXE(
     analysis.binaries,
     analysis.datas,
     [],
-    name="材料收集工具",
+    name="ClassCommitteeTools",
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
